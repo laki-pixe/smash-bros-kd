@@ -12,11 +12,12 @@ TagManager:
   - EL PROFE
   - sonic
   - SANS
+  - Floor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
