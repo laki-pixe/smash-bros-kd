@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool facingRight = true;
     private float inputX;
+    public string mensaje;
 
     void Start()
     {
@@ -46,6 +47,11 @@ public class PlayerController : MonoBehaviour
         HandleDash();
         CheckGround();
         HandleFlip();
+        if(isGrounded == true)
+        {
+            print(mensaje);
+        }
+
     }
 
     void FixedUpdate()
