@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Detección de suelo")]
     public Transform groundCheck;
-    public float groundRadius = 0.3f;
+    public float groundRadius = 0.5f;
     public LayerMask groundLayer;
 
     [Header("Controles personalizados")]

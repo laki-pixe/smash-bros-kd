@@ -57,15 +57,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.477
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.025999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
       propertyPath: m_LocalRotation.w
@@ -257,100 +257,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7659319389075166690}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3300649414501424412}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4299278255311554167}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3558028315076890987}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
---- !u!1 &1540373077873028880 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fdb188da7297dc64b807ad8456265c11, type: 3}
-  m_PrefabInstance: {fileID: 1847013469019132481}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &3300649414501424412
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540373077873028880}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.0033090154
-  m_Height: 0.018911842
-  m_Direction: 1
-  m_Center: {x: -0.00020841535, y: -0.0068234657, z: -0.030941265}
---- !u!54 &4299278255311554167
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540373077873028880}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!114 &3558028315076890987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540373077873028880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e132653d8f67e145baaf00a36c294f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  acceleration: 15
-  airControl: 0.5
-  jumpForce: 3
-  maxJumps: 2
-  dashForce: 15
-  dashCooldown: 1
-  groundCheck: {fileID: 7659319389075166690}
-  groundRadius: 0.3
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  leftKey: 97
-  rightKey: 100
-  jumpKey: 119
-  dashKey: 304
 --- !u!4 &2173920905439360426 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fdb188da7297dc64b807ad8456265c11, type: 3}

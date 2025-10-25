@@ -13,6 +13,7 @@ TagManager:
   - sonic
   - SANS
   - Floor
+  - Kill
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Kill
   - 
   - 
   - 

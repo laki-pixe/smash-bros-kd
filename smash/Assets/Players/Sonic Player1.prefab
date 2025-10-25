@@ -89,15 +89,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f4c60998f3097a44390c8c42690727e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.477
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f4c60998f3097a44390c8c42690727e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f4c60998f3097a44390c8c42690727e1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.025999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f4c60998f3097a44390c8c42690727e1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -652,7 +652,7 @@ MonoBehaviour:
   airControl: 0.5
   jumpForce: 3
   maxJumps: 2
-  dashForce: 15
+  dashForce: 10
   dashCooldown: 1
   groundCheck: {fileID: 4231315700765383255}
   groundRadius: 0.3
@@ -663,6 +663,7 @@ MonoBehaviour:
   rightKey: 100
   jumpKey: 119
   dashKey: 304
+  mensaje: 
 --- !u!4 &9145305567677449325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4c60998f3097a44390c8c42690727e1, type: 3}
