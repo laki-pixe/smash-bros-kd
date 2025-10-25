@@ -11,7 +11,16 @@ public class Floor : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            // Teletransportar al jugador
             other.transform.position = teleportTarget.position;
+
+            // Quitar 50 de vida
+            PlayerController player = other.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                player.TakeDamage(30);
+                Debug.Log($"{other.name} cayó al piso y perdió 50 de vida. Vida restante: {player.health}");
+            }
         }
     }
 }
